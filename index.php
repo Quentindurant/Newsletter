@@ -74,7 +74,7 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </head>
 <body>
     <div class="container">
-        <h1>NEWSLETTER caca</h1>
+        <h1>NEWSLETTER</h1>
         <?php if ($message): ?>
             <p><?php echo $message; ?></p>
         <?php endif; ?>
